@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courgette', cursive; 
+}
+
+header{
+    background-color: RGBA(211, 211, 211, 0.548);
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+main{
+    background: url('https://i.stack.imgur.com/NX7PC.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    
+    
+}
+
+main div{
+    display: inline-block;
+    /* padding: 20px;
+    margin: 20px; */
+}
+
+main div form, main div table{
+    background-color: RGBA(211, 211, 211, 0.548);
+    width: 500px;
+    height: 250px; 
+    padding: 20px;
+
+}
+main div form{
+    float: left;
+    margin-top: 150px ;
+    margin-left: 100px;
+}
+main div table{
+
+    float: right;
+    margin-top: 150px ;
+    margin-left: 300px;
+    padding: 20px;
+}
+
+main div form label{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+#user{
+    height: 35px;
+    width:250px;
+    border-radius:20px;
+}
+
+#type{
+    height: 30px;
+    width:250px;
+    border-radius: 15px;   
+}
+
+#button{
+    height: 30px;
+    width:250px;
+    border-radius: 15px; 
+    background-color: RGB(39, 39, 39);
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 38px;
+}
+
+table tr,th,td{
+    border: 1px solid whitesmoke;
+    border-collapse: collapse;
+    color: whitesmoke;
+    padding: 15px;
+    text-align: center;
+}
+
+table  th{
+    font-size: 17px;
+    font-weight: bold;
+    background-color:RGB(39, 39, 39) ;
+   
+}
+
+table  td{
+    background-color: RGB(78, 78, 78);
+}
+
+footer{
+    background-color: RGBA(211, 211, 211, 0.548);
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    
+}
